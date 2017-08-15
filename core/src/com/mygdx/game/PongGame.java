@@ -55,6 +55,8 @@ public class PongGame implements ApplicationListener {
 	// right boundary
 	Rectangle rightBound;
 	
+	int gambi =0;
+	
 	
 	@Override
 	public void create() {	
@@ -104,7 +106,6 @@ public class PongGame implements ApplicationListener {
 		sr.rect(p1.x, p1.y, p1.width, p1.height);
 		sr.rect(p2.x, p2.y, p2.width, p2.height);
 		sr.end();
-		
 		
 		
 		// player 1 controls
